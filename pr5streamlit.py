@@ -4,7 +4,7 @@ import pickle as pkl
 with open('p5Model1.pkl','rb') as f1:
     model = pkl.load(f1)
 
-st.title("Height Prediction App")
+st.title("Weight Prediction App")
 
 height = st.text_input("Enter your Height")
 
